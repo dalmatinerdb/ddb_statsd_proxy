@@ -1,0 +1,17 @@
+{application, 'ddb_statsd_proxy',
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'ddb_statsd_proxy_app', []}},
+  {applications,
+   [kernel,
+    stdlib,
+    ddb_client
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.

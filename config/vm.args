@@ -1,0 +1,6 @@
+-sname ddb_statsd_proxy
+
+-setcookie ddb_statsd_proxy_cookie
+
++K true
++A30
